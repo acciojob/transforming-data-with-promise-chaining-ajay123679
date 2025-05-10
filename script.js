@@ -16,7 +16,7 @@ function task2(m)
 		setTimeout(()=>{
 			c.innerText="Result: "+(m*2);
 			resolve(m*2);
-		},2000)
+		},1000)
 	})
 }
 function task3(n)
