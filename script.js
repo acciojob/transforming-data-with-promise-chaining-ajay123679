@@ -5,7 +5,7 @@ const c=document.getElementById("output");
 function task1(){
 	return new Promise((resolve)=>{
 		setTimeout(()=>{
-			c.innertext=a.value;
+			c.innerText=a.value;
 			resolve(a);
 		},2000)
 	})
@@ -21,7 +21,7 @@ function task2(m)
 }
 function task3(n)
 {
-	retuen new Promise((resolve)=>{
+	returnn new Promise((resolve)=>{
 		setTimeout(()=>{
 			c.innerText=n-3;
 			resolve(n-3);
@@ -40,7 +40,7 @@ function task4(o){
 function task5(p){
    	return new Promise((resolve)=>{
 		setTimeout(()=>{
-			c.innerHTML=p+10;
+			c.innerText=p+10;
 			resolve(p+10);
         },1000)
 	})
