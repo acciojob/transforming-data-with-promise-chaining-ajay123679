@@ -42,7 +42,7 @@ function task5(p){
 		setTimeout(()=>{
 			c.innerHTML=p+10;
 			resolve(p+10);
-        })
+        },1000)
 	})
 }
 async function fun(){
