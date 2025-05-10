@@ -52,4 +52,4 @@ async function fun(){
 	const p=await task4(o);
 	const q=await task5(p);
 }
-btn.addEventListener("click",fun);
+b.addEventListener("click",fun);
