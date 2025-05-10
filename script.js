@@ -6,7 +6,7 @@ function task1(){
 	return new Promise((resolve)=>{
 		setTimeout(()=>{
 			c.innerText="Result: "+a.value;
-			resolve(a);
+			resolve(a.value);
 		},2000)
 	})
 }
