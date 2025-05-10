@@ -21,7 +21,7 @@ function task2(m)
 }
 function task3(n)
 {
-	returnn new Promise((resolve)=>{
+	return new Promise((resolve)=>{
 		setTimeout(()=>{
 			c.innerText="Result: "+n-3;
 			resolve(n-3);
