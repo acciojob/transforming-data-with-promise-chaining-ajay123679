@@ -40,7 +40,7 @@ function task4(o){
 function task5(p){
    	return new Promise((resolve)=>{
 		setTimeout(()=>{
-			c.innerText="Result: "+(p+10);
+			c.innerText="Final Result: "+(p+10);
 			resolve(p+10);
         },1000)
 	})
